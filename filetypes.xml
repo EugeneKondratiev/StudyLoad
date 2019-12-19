@@ -8,6 +8,7 @@
       <mapping pattern="config.properties" type="PLAIN_TEXT" />
       <mapping pattern="Spring-DataSoutce" type="PLAIN_TEXT" />
       <mapping ext="dat" type="PLAIN_TEXT" />
+      <mapping ext="db" type="SQL" />
     </extensionMap>
   </component>
 </application>
