@@ -15,7 +15,7 @@ import java.util.Date;
 
 public class HelloParse {
     public void readFromExcel(String file) throws IOException, InvalidFormatException {
-        Workbook wb = WorkbookFactory.create(new File("C:\\Users\\albru\\Documents\\java\\StudyLoad\\src\\main\\resources\\ІТтаКБ. Сем I. Форма навчання  денна.xlsx"));
+        Workbook wb = WorkbookFactory.create(new File("src/main/resources/ІТтаКБ. Сем I. Форма навчання  денна.xlsx"));
         Sheet myExcelSheet = wb.getSheet("Робота кафедри");
         Row row =  myExcelSheet.getRow(0);
         Cell cell = row.getCell(0);
